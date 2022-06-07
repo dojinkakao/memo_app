@@ -44,7 +44,7 @@ elsif memo_type == 2
 
     puts "以下の内容で保存されました"
 
-    CSV.read("test.csv")
+    CSV.read("#{title}.csv")
     puts "タイトル: #{title}"
     puts "---------------"
     puts "内容: #{memo}"
